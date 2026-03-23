@@ -1,0 +1,21 @@
+# Test data and spec (not part of plugin distribution)
+test-data/
+test-outputs/
+spec.docx
+
+# Environment files
+.env
+.env.local
+.env*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+test-outputs-docx/

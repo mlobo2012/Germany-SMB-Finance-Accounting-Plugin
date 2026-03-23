@@ -1,0 +1,59 @@
+{
+  "mcpServers": {
+    "slack": {
+      "type": "http",
+      "url": "https://mcp.slack.com/mcp"
+    },
+    "bigquery": {
+      "type": "http",
+      "url": "https://bigquery.googleapis.com/mcp"
+    },
+    "ms365": {
+      "type": "http",
+      "url": "https://microsoft365.mcp.claude.com/mcp"
+    },
+    "gmail": {
+      "type": "http",
+      "url": "https://gmail.mcp.claude.com/mcp"
+    },
+    "google-calendar": {
+      "type": "http",
+      "url": "https://gcal.mcp.claude.com/mcp"
+    },
+    "datev": {
+      "type": "http",
+      "url": "",
+      "description": "DATEV Rechnungswesen — Saldenlisten, Kontobewegungen, Buchungssätze, Offene Posten."
+    },
+    "lexware": {
+      "type": "http",
+      "url": "",
+      "description": "Lexware Office / sevDesk — Cloud-Buchhaltung für KMU und Freiberufler."
+    },
+    "datev-lohn": {
+      "type": "http",
+      "url": "",
+      "description": "DATEV Lohn und Gehalt / LODAS — Brutto/Netto, SV-Beiträge, Lohnsteuer, bAV."
+    },
+    "personio": {
+      "type": "http",
+      "url": "",
+      "description": "Personio — HR und Lohnabrechnung für den deutschen Mittelstand."
+    },
+    "elster": {
+      "type": "http",
+      "url": "",
+      "description": "ELSTER / ERiC — USt-Voranmeldung, LSt-Anmeldung, eBilanz, KSt/GewSt-Erklärung."
+    },
+    "hbci-fints": {
+      "type": "http",
+      "url": "",
+      "description": "HBCI/FinTS / PSD2/XS2A — Kontoauszüge, SEPA-Überweisungen, SEPA-Lastschriften."
+    },
+    "unternehmensregister": {
+      "type": "http",
+      "url": "",
+      "description": "Unternehmensregister / Bundesanzeiger — Jahresabschluss-Offenlegung, XBRL."
+    }
+  }
+}

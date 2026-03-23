@@ -1,0 +1,14 @@
+{
+  "name": "Germany-SMB-Finance-Accounting-Plugin",
+  "description": "German finance and accounting plugins for Claude",
+  "owner": {
+    "name": "AI Heroes"
+  },
+  "plugins": [
+    {
+      "name": "germany-accounting",
+      "source": ".",
+      "description": "Germany — Finance & Accounting: Buchungssätze, Abstimmungen, Jahresabschluss (HGB/EÜR), USt-Voranmeldung, eBilanz, Lohnabrechnung und IKS-Prüfung."
+    }
+  ]
+}

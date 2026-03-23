@@ -1,0 +1,84 @@
+{
+  "default": "SKR03",
+  "supported": ["SKR03", "SKR04"],
+  "SKR03": {
+    "name": "Standardkontenrahmen 03 (Prozessgliederungsprinzip)",
+    "herausgeber": "DATEV eG",
+    "sachkonten_stellen": 4,
+    "personenkonten_stellen": 5,
+    "klassen": {
+      "0": "Anlage- und Kapitalkonten",
+      "1": "Finanz- und Privatkonten",
+      "2": "Abgrenzungskonten (Rückstellungen, ARAP/PRAP, latente Steuern)",
+      "3": "Wareneingangs- und Bestandskonten",
+      "4": "Betriebliche Aufwendungen",
+      "5": "(frei / Sonderkonten)",
+      "6": "(frei / Sonderkonten)",
+      "7": "Bestände an Erzeugnissen",
+      "8": "Erlöskonten",
+      "9": "Vortrags- und statistische Konten"
+    },
+    "personenkonten": {
+      "debitoren": "10000-69999",
+      "kreditoren": "70000-99999"
+    },
+    "haeufige_konten": {
+      "bank": "1200",
+      "kasse": "1000",
+      "forderungen_lul": "1400",
+      "verbindlichkeiten_lul": "1600",
+      "umsatzerloese_19": "8400",
+      "umsatzerloese_7": "8300",
+      "vorsteuer_19": "1576",
+      "umsatzsteuer_19": "1776",
+      "abziehbare_vorsteuer": "1570",
+      "umsatzsteuer_zahllast": "1780",
+      "loehne_gehaelter": "4100",
+      "ag_anteil_sv": "4130",
+      "abschreibungen_sav": "4830",
+      "gezeichnetes_kapital": "0800",
+      "gewinnvortrag": "0860",
+      "rueckstellungen_sonstige": "0970",
+      "urlaubsrueckstellung": "0968"
+    }
+  },
+  "SKR04": {
+    "name": "Standardkontenrahmen 04 (Abschlussgliederungsprinzip)",
+    "herausgeber": "DATEV eG",
+    "sachkonten_stellen": 4,
+    "personenkonten_stellen": 5,
+    "klassen": {
+      "0": "Anlagevermögen",
+      "1": "Umlaufvermögen",
+      "2": "Eigenkapital",
+      "3": "Fremdkapital",
+      "4": "Betriebliche Erträge",
+      "5": "Betriebliche Aufwendungen (Material)",
+      "6": "Betriebliche Aufwendungen (Personal, Abschreibungen, sonstige)",
+      "7": "Weitere Erträge und Aufwendungen",
+      "8": "(frei)",
+      "9": "Vortrags- und statistische Konten"
+    },
+    "personenkonten": {
+      "debitoren": "10000-69999",
+      "kreditoren": "70000-99999"
+    },
+    "haeufige_konten": {
+      "bank": "1800",
+      "kasse": "1600",
+      "forderungen_lul": "1200",
+      "verbindlichkeiten_lul": "3300",
+      "umsatzerloese_19": "4400",
+      "umsatzerloese_7": "4300",
+      "vorsteuer_19": "1406",
+      "umsatzsteuer_19": "3806",
+      "loehne_gehaelter": "6000",
+      "ag_anteil_sv": "6100",
+      "abschreibungen_sav": "6200",
+      "gezeichnetes_kapital": "2000",
+      "gewinnvortrag": "2970",
+      "rueckstellungen_sonstige": "3070",
+      "urlaubsrueckstellung": "3050"
+    }
+  }
+}
