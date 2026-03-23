@@ -147,3 +147,13 @@ Claude generiert Bilanz nach §266 HGB und GuV nach §275 Abs.2 HGB
 (Gesamtkostenverfahren) mit Vorjahresvergleich.
 
 
+
+## Autor
+
+Erstellt von [AI Heroes](https://www.ai-heroes.co).
+
+## Lizenz
+
+[Apache 2.0 + Commons Clause](LICENSE) — kostenlos für private und
+interne geschäftliche Nutzung. Kommerzieller Weiterverkauf ist nicht
+gestattet.
